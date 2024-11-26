@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IjlalDev Studios - Game Development</title>
+    <link rel="icon" type="image/png" href="Ijlal Dev Studios.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script>
+       (function(){
+          emailjs.init("jTYKrzPg5snL-wzQl"); // Your public key
+       })();
+    </script>
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta http-equiv="X-Frame-Options" content="DENY">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' https:; script-src 'self' https: 'unsafe-inline' 'unsafe-eval' cdn.jsdelivr.net cdnjs.cloudflare.com; style-src 'self' https: 'unsafe-inline' cdnjs.cloudflare.com; img-src 'self' https: data: play-lh.googleusercontent.com images.unsplash.com;">
+    <meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <img src="Ijlal Dev Studios.png" alt="IjlalDev Studios Logo" class="logo-image">
+            <span class="logo-text">IjlalDev</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#games">Games</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content animate-fade-in">
+            <h1 class="animate-slide-up">Welcome to IjlalDev Studios</h1>
+            <p class="animate-slide-up delay-200">Creating immersive gaming experiences</p>
+            <a href="#games" class="cta-button animate-slide-up delay-400">Explore Our Games</a>
+        </div>
+    </section>
+
+    <section id="games" class="games">
+        <h2 class="animate-fade-in">Our Games</h2>
+        <div class="games-grid">
+            <div class="game-card animate-slide-up">
+                <img src="https://play-lh.googleusercontent.com/gFTbCtfLQIaqgHveHn786VUxRibIKY9gEf2fWSfWFVuPuzpcNgPrwTQoa5_TmsgqaG0=w240-h480-rw" alt="Zig Zag 2D">
+                <h3>Zig Zag 2D</h3>
+                <p>A challenging endless runner game where you guide your character through never-ending mazes while collecting coins and power-ups.</p>
+                <a href="https://play.google.com/store/apps/details?id=com.ijlaldev.zigzag2d" class="game-button">Play Now</a>
+            </div>
+            <div class="game-card animate-slide-up delay-200">
+                <img src="https://play-lh.googleusercontent.com/OuXTLvMp91_7Vk9d5elXm-cUlzK4BiYlP7hdgWMrN2MkFZnUYTvClvtVFBK5SyEicLE=w240-h480-rw" alt="Jelly Merge">
+                <h3>Jelly Merge</h3>
+                <p>A captivating puzzle game that challenges players to merge blocks strategically in this addictive merging experience.</p>
+                <a href="https://play.google.com/store/apps/details?id=com.IjlalDev.jellymerge" class="game-button">Play Now</a>
+            </div>
+            <div class="game-card animate-slide-up delay-400">
+                <img src="https://play-lh.googleusercontent.com/esnicShv9yv_mOvBUJ_EPWe9xfWyzi-DszxX9FF77W838hgwyxIunsKSJWz2BA5lbUw=w240-h480-rw" alt="Stack IT UP">
+                <h3>Stack IT UP</h3>
+                <p>Test your precision and timing in this addictive stacking game. Build the highest tower possible!</p>
+                <a href="https://play.google.com/store/apps/details?id=com.IjlalDev.StackITUP" class="game-button">Play Now</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2 class="animate-fade-in">About IjlalDev</h2>
+        <div class="about-content">
+            <div class="about-text animate-slide-up">
+                <p>IjlalDev Studios is a solo indie game development venture by Ijlal, passionate about creating unique and engaging gaming experiences. Founded in 2022 with the release of Zig Zag 2D, the studio has grown to deliver multiple captivating mobile games. As a one-person studio, every game is crafted with personal dedication and attention to detail.</p>
+            </div>
+            <div class="stats">
+                <div class="stat-item animate-slide-up">
+                    <i class="fas fa-download"></i>
+                    <h3>50+</h3>
+                    <p>Downloads</p>
+                </div>
+                <div class="stat-item animate-slide-up delay-200">
+                    <i class="fas fa-gamepad"></i>
+                    <h3>3</h3>
+                    <p>Games</p>
+                </div>
+                <div class="stat-item animate-slide-up delay-400">
+                    <i class="fas fa-star"></i>
+                    <h3>4.5+</h3>
+                    <p>Average Rating</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <input type="text" id="name" placeholder="Name" required>
+            <input type="email" id="email" placeholder="Email" required>
+            <textarea id="message" placeholder="Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 IjlalDev Studios. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
